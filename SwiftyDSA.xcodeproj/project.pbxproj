@@ -8,12 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		4C00528723E03D2000AC9C72 /* SwiftyDSA.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C00528523E03D2000AC9C72 /* SwiftyDSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CB2B02323E0435D003754FF /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2B02223E0435D003754FF /* Node.swift */; };
+		4CB2B02E23E043B2003754FF /* SwiftyDSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C00528223E03D2000AC9C72 /* SwiftyDSA.framework */; };
+		4CB2B03523E043D0003754FF /* NodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2B03423E043D0003754FF /* NodeTests.swift */; };
+		4CB2B03723E09C49003754FF /* LinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2B03623E09C49003754FF /* LinkedListTests.swift */; };
+		4CB2B03923E09D38003754FF /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2B03823E09D38003754FF /* LinkedList.swift */; };
+		6616DB3AE4434402D1C11867 /* Pods_SwiftyDSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C3461BAA5F34FC43EC0162 /* Pods_SwiftyDSA.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4CB2B02F23E043B2003754FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C00527923E03D2000AC9C72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C00528123E03D2000AC9C72;
+			remoteInfo = SwiftyDSA;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		44FBE994F358FF31B5C09001 /* Pods-SwiftyDSA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyDSA.release.xcconfig"; path = "Target Support Files/Pods-SwiftyDSA/Pods-SwiftyDSA.release.xcconfig"; sourceTree = "<group>"; };
 		4C00528223E03D2000AC9C72 /* SwiftyDSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyDSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C00528523E03D2000AC9C72 /* SwiftyDSA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyDSA.h; sourceTree = "<group>"; };
 		4C00528623E03D2000AC9C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB2B02123E04226003754FF /* Examples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Examples.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4CB2B02223E0435D003754FF /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		4CB2B02923E043B2003754FF /* SwiftyDSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyDSATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB2B02D23E043B2003754FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB2B03423E043D0003754FF /* NodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeTests.swift; sourceTree = "<group>"; };
+		4CB2B03623E09C49003754FF /* LinkedListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTests.swift; sourceTree = "<group>"; };
+		4CB2B03823E09D38003754FF /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		7F46960A42E57F1C28954023 /* Pods-SwiftyDSA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyDSA.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyDSA/Pods-SwiftyDSA.debug.xcconfig"; sourceTree = "<group>"; };
+		A6C3461BAA5F34FC43EC0162 /* Pods_SwiftyDSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyDSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +47,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6616DB3AE4434402D1C11867 /* Pods_SwiftyDSA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB2B02623E043B2003754FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB2B02E23E043B2003754FF /* SwiftyDSA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,8 +65,12 @@
 		4C00527823E03D2000AC9C72 = {
 			isa = PBXGroup;
 			children = (
+				4CB2B02123E04226003754FF /* Examples.playground */,
 				4C00528423E03D2000AC9C72 /* SwiftyDSA */,
+				4CB2B02A23E043B2003754FF /* SwiftyDSATests */,
 				4C00528323E03D2000AC9C72 /* Products */,
+				CD56D80041ADA0A16D001096 /* Pods */,
+				E4C482FEA2E84DA4EBEE9683 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				4C00528223E03D2000AC9C72 /* SwiftyDSA.framework */,
+				4CB2B02923E043B2003754FF /* SwiftyDSATests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,8 +88,45 @@
 			children = (
 				4C00528523E03D2000AC9C72 /* SwiftyDSA.h */,
 				4C00528623E03D2000AC9C72 /* Info.plist */,
+				4CB2B02423E04365003754FF /* Linked List */,
 			);
 			path = SwiftyDSA;
+			sourceTree = "<group>";
+		};
+		4CB2B02423E04365003754FF /* Linked List */ = {
+			isa = PBXGroup;
+			children = (
+				4CB2B02223E0435D003754FF /* Node.swift */,
+				4CB2B03823E09D38003754FF /* LinkedList.swift */,
+			);
+			path = "Linked List";
+			sourceTree = "<group>";
+		};
+		4CB2B02A23E043B2003754FF /* SwiftyDSATests */ = {
+			isa = PBXGroup;
+			children = (
+				4CB2B02D23E043B2003754FF /* Info.plist */,
+				4CB2B03423E043D0003754FF /* NodeTests.swift */,
+				4CB2B03623E09C49003754FF /* LinkedListTests.swift */,
+			);
+			path = SwiftyDSATests;
+			sourceTree = "<group>";
+		};
+		CD56D80041ADA0A16D001096 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F46960A42E57F1C28954023 /* Pods-SwiftyDSA.debug.xcconfig */,
+				44FBE994F358FF31B5C09001 /* Pods-SwiftyDSA.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4C482FEA2E84DA4EBEE9683 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6C3461BAA5F34FC43EC0162 /* Pods_SwiftyDSA.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,6 +147,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C00528A23E03D2000AC9C72 /* Build configuration list for PBXNativeTarget "SwiftyDSA" */;
 			buildPhases = (
+				3D037C7C3E893B9CF5BF8CC8 /* [CP] Check Pods Manifest.lock */,
 				4C00527D23E03D2000AC9C72 /* Headers */,
 				4C00527E23E03D2000AC9C72 /* Sources */,
 				4C00527F23E03D2000AC9C72 /* Frameworks */,
@@ -84,16 +162,39 @@
 			productReference = 4C00528223E03D2000AC9C72 /* SwiftyDSA.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		4CB2B02823E043B2003754FF /* SwiftyDSATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB2B03123E043B2003754FF /* Build configuration list for PBXNativeTarget "SwiftyDSATests" */;
+			buildPhases = (
+				4CB2B02523E043B2003754FF /* Sources */,
+				4CB2B02623E043B2003754FF /* Frameworks */,
+				4CB2B02723E043B2003754FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CB2B03023E043B2003754FF /* PBXTargetDependency */,
+			);
+			name = SwiftyDSATests;
+			productName = SwiftyDSATests;
+			productReference = 4CB2B02923E043B2003754FF /* SwiftyDSATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		4C00527923E03D2000AC9C72 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Michael Borgmann";
 				TargetAttributes = {
 					4C00528123E03D2000AC9C72 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					4CB2B02823E043B2003754FF = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -112,6 +213,7 @@
 			projectRoot = "";
 			targets = (
 				4C00528123E03D2000AC9C72 /* SwiftyDSA */,
+				4CB2B02823E043B2003754FF /* SwiftyDSATests */,
 			);
 		};
 /* End PBXProject section */
@@ -124,17 +226,68 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4CB2B02723E043B2003754FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D037C7C3E893B9CF5BF8CC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftyDSA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4C00527E23E03D2000AC9C72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB2B03923E09D38003754FF /* LinkedList.swift in Sources */,
+				4CB2B02323E0435D003754FF /* Node.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB2B02523E043B2003754FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB2B03723E09C49003754FF /* LinkedListTests.swift in Sources */,
+				4CB2B03523E043D0003754FF /* NodeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CB2B03023E043B2003754FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C00528123E03D2000AC9C72 /* SwiftyDSA */;
+			targetProxy = 4CB2B02F23E043B2003754FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4C00528823E03D2000AC9C72 /* Debug */ = {
@@ -259,7 +412,36 @@
 		};
 		4C00528B23E03D2000AC9C72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F46960A42E57F1C28954023 /* Pods-SwiftyDSA.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FNBTP68MJQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwiftyDSA/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelborgmann.SwiftyDSA;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C00528C23E03D2000AC9C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44FBE994F358FF31B5C09001 /* Pods-SwiftyDSA.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = FNBTP68MJQ;
@@ -279,27 +461,39 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Release;
 		};
-		4C00528C23E03D2000AC9C72 /* Release */ = {
+		4CB2B03223E043B2003754FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = FNBTP68MJQ;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftyDSA/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = SwiftyDSATests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.michaelborgmann.SwiftyDSA;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelborgmann.SwiftyDSATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CB2B03323E043B2003754FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNBTP68MJQ;
+				INFOPLIST_FILE = SwiftyDSATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelborgmann.SwiftyDSATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -322,6 +516,15 @@
 			buildConfigurations = (
 				4C00528B23E03D2000AC9C72 /* Debug */,
 				4C00528C23E03D2000AC9C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB2B03123E043B2003754FF /* Build configuration list for PBXNativeTarget "SwiftyDSATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB2B03223E043B2003754FF /* Debug */,
+				4CB2B03323E043B2003754FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
