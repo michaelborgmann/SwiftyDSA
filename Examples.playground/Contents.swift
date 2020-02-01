@@ -1,6 +1,36 @@
 import UIKit
 import SwiftyDSA
 
+
+example(of: "using a stack") {
+    var stack = Stack<Int>()
+
+    stack.push(1)
+    stack.push(2)
+    stack.push(3)
+    stack.push(4)
+    
+    print(stack)
+    
+    if let element = stack.pop() {
+        assert(element == 4)
+        print("Popped: \(element)")
+    }
+    
+    print(stack)
+}
+
+example(of: "initialize stack from array") {
+    let array = ["A", "B", "C"]
+    let stack = Stack(array)
+    print(stack)
+}
+
+example(of: "initialize stack from array literal") {
+    var stack: Stack = [1.0, 2.0, 3.0, 4.0]
+    print(stack)
+}
+
 example(of: "creating and linking nodes") {
     let node1 = Node(value: 1)
     let node2 = Node(value: 2)
@@ -40,7 +70,7 @@ example(of: "insert at particular index") {
     
     print("Before inserting: \(list)")
     
-    var node = list.node(at: 1)!
+    let node = list.node(at: 1)!
     
     list.insert(0, after: node)
     
@@ -58,7 +88,7 @@ example(of: "pop") {
     let value = list.pop()
     
     print("After popping list: \(list)")
-    print("Popped value: \(value)")
+    print("Popped value: \(String(describing: value))")
 }
 
 example(of: "removing last node") {
@@ -71,5 +101,5 @@ example(of: "removing last node") {
     let value = list.removeLast()
     
     print("After removing last node: \(list)")
-    print("Removed value: \(value)")
+    print("Removed value: \(String(describing: value))")
 }

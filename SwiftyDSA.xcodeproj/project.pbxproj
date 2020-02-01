@@ -13,6 +13,8 @@
 		4CB2B03523E043D0003754FF /* NodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2B03423E043D0003754FF /* NodeTests.swift */; };
 		4CB2B03723E09C49003754FF /* LinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2B03623E09C49003754FF /* LinkedListTests.swift */; };
 		4CB2B03923E09D38003754FF /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2B03823E09D38003754FF /* LinkedList.swift */; };
+		4CB2B03B23E5E81D003754FF /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2B03A23E5E81D003754FF /* Stack.swift */; };
+		4CB2B03E23E5E8AE003754FF /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2B03D23E5E8AE003754FF /* StackTests.swift */; };
 		6616DB3AE4434402D1C11867 /* Pods_SwiftyDSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C3461BAA5F34FC43EC0162 /* Pods_SwiftyDSA.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,8 @@
 		4CB2B03423E043D0003754FF /* NodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeTests.swift; sourceTree = "<group>"; };
 		4CB2B03623E09C49003754FF /* LinkedListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTests.swift; sourceTree = "<group>"; };
 		4CB2B03823E09D38003754FF /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		4CB2B03A23E5E81D003754FF /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		4CB2B03D23E5E8AE003754FF /* StackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTests.swift; sourceTree = "<group>"; };
 		7F46960A42E57F1C28954023 /* Pods-SwiftyDSA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyDSA.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyDSA/Pods-SwiftyDSA.debug.xcconfig"; sourceTree = "<group>"; };
 		A6C3461BAA5F34FC43EC0162 /* Pods_SwiftyDSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyDSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -88,6 +92,7 @@
 			children = (
 				4C00528523E03D2000AC9C72 /* SwiftyDSA.h */,
 				4C00528623E03D2000AC9C72 /* Info.plist */,
+				4CB2B03C23E5E823003754FF /* Stack */,
 				4CB2B02423E04365003754FF /* Linked List */,
 			);
 			path = SwiftyDSA;
@@ -106,10 +111,19 @@
 			isa = PBXGroup;
 			children = (
 				4CB2B02D23E043B2003754FF /* Info.plist */,
+				4CB2B03D23E5E8AE003754FF /* StackTests.swift */,
 				4CB2B03423E043D0003754FF /* NodeTests.swift */,
 				4CB2B03623E09C49003754FF /* LinkedListTests.swift */,
 			);
 			path = SwiftyDSATests;
+			sourceTree = "<group>";
+		};
+		4CB2B03C23E5E823003754FF /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				4CB2B03A23E5E81D003754FF /* Stack.swift */,
+			);
+			path = Stack;
 			sourceTree = "<group>";
 		};
 		CD56D80041ADA0A16D001096 /* Pods */ = {
@@ -266,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CB2B03923E09D38003754FF /* LinkedList.swift in Sources */,
+				4CB2B03B23E5E81D003754FF /* Stack.swift in Sources */,
 				4CB2B02323E0435D003754FF /* Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +291,7 @@
 			files = (
 				4CB2B03723E09C49003754FF /* LinkedListTests.swift in Sources */,
 				4CB2B03523E043D0003754FF /* NodeTests.swift in Sources */,
+				4CB2B03E23E5E8AE003754FF /* StackTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
